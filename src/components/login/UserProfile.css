@@ -1,0 +1,123 @@
+.nav-item,
+.navbar {
+    z-index: 10000;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.bg-white {
+    opacity: 1;
+    background-color: rgb(255 255 255 / opacity=1);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.right-1 {
+    right: 0.25rem;
+}
+
+.top-16 {
+    top: 4rem;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+
+.border-color {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.border-b-1 {
+    border-bottom-width: 1px;
+}
+
+.gap-5 {
+    gap: 1.25rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.w-24 {
+    width: 6rem;
+}
+
+.h-24 {
+    height: 6rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+element.style {
+    color: rgb(43, 103, 119);
+    border-radius: 20px;
+    border-color: transparent;
+    color: #2b6777 bgHoverColor="light-gray" size="2xl" borderRadius="20px";
+}
+
+.trait_ {
+    align-items: center;
+    width: 100%;
+    height: 1.5px;
+    background-color: #2b67774a;
+    border: none;
+}
