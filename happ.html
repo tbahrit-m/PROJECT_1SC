@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Happy Birthday</title>
+   <button id="monBouton">Cliquez-moi</button>
+    <div id="texteCaché"></div>
+    <script src="script.js"></script>
+   <style>
+       body {
+           background-color: #ffebee;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           margin: 0;
+           font-family: 'Arial', sans-serif;
+     
+    background-image: url('a.jpg');
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+       
+
+       .container {
+           text-align: center;
+           color: wheat;
+       }
+
+       .container h1 {
+           font-size: 5rem;
+           margin-bottom: 0.5rem;
+       }
+
+       .container p {
+           font-size: 2rem;
+           margin-top: 0.5rem;
+       } 
+       #monBouton {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    margin-top: 20%; /* Ajoute une transition de 0.3 seconde sur la couleur de fond */
+  
+}
+
+#monBouton:hover {
+    background-color: #0056b3; /* Changer la couleur de fond au survol */
+}
+
+#texteCaché {
+    font-size: 2rem;
+           margin-top: 0.5rem;
+           color: black;
+           background-color:rgb(187, 122, 122);
+}
+
+        
+   
+#messageAnniversaire {
+    font-size: 36px;
+    text-align: center;
+    color: #FF5733;
+}
+
+.animation {
+    animation-name: happyBirthday;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes happyBirthday {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.a{
+    color: pink;
+}
+.b{
+    color: #a20033;
+
+font-size: 40px;
+}
+   </style>
+   
+</head>
+<body>
+    <div id="messageAnniversaire" class="animation">
+
+   <div class="container">
+       <h1>Happy Birthday</h1>
+       <h2 class="b">to the best person in this life</h2>
+       <p class="a">psss::: bb khdmth fi 10min 3lbiha mejech chbeb desole omri</p>
+   </div></div>
+</body>
+</html>
